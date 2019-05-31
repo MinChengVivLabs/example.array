@@ -1,7 +1,7 @@
 result-view {
   match: StructContact(this)
   message {
-    template ("Found #{size(this)} number of contacts")
+    template ("Found #{size(this)} contacts")
   }
   render {
     list-of (this) {
